@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Didact+Gothic|Prata");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Didact Gothic", sans-serif;
+  display: table;
+}
+h1, h2 {
+  color: #b71c1c;
+  text-shadow:0 1px 1px #fff;
+}
+h1 {
+  font-family: "Cormorant SC", serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+h2 {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+.wrap {
+  display: table-cell;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  color: #333;
+  background: -webkit-gradient(
+      radial,
+      center center,
+      32,
+      center center,
+      960,
+      from(rgba(255, 255, 255, 0)),
+      to(#e57373)
+    );
+  background-image: radial-gradient(rgba(255, 255, 255, 0), #e57373);
+}
